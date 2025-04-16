@@ -39,4 +39,12 @@ print(text.replace("fun", "awesome"))
 
 print("-----Splitting and Joining-----")
 
-# .split() -> breaks a string into a list of substrings, based on a separator(by default, whitespace)
+# .split() -> breaks a string into a list of substrings, based on a separator(by default, space)
+text = "Apple,Banana,Orange"
+fruits = text.split(",")
+print(fruits)
+
+# .join() -> joins elements of a list(or any iterable) into a single string, based on a separator
+word = ["I","am","learning","Python"]
+sentence = " ".join(word)
+print(sentence)
