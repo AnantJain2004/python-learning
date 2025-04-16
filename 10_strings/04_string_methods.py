@@ -48,3 +48,24 @@ print(fruits)
 word = ["I","am","learning","Python"]
 sentence = " ".join(word)
 print(sentence)
+
+# 5. Checking String Properties
+
+print("-----Checking string properties-----")
+
+# .isalpha() -> returns True if all characters are alphabets(a-z,A-Z)
+print("hello.isalpha()","hello".isalpha())
+print("hello123.isalpha()","hello123".isalpha())
+
+# .isdigit() -> returns True if all characters are digits(0-9)
+print("12345.isdigit()", "12345".isdigit())
+print("123abc.isdigit()", "123abc".isdigit())
+
+# .isalnum() -> returns True if all characters are either alphabets or digits(alphanumeric)
+print("123abc.isalnum()", "123abc".isalnum())
+print("123.isalnum()", "123".isalnum())
+print("hello!.isalnum()", "hello!".isalnum())
+
+# .isspace() -> returns True if all characters are whitespace char(like space, tab, newline)
+print("   .isspace()", "   ".isspace())
+print("  a .isspace()", "  a ".isspace())
