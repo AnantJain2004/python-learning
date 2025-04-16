@@ -69,3 +69,19 @@ print("hello!.isalnum()", "hello!".isalnum())
 # .isspace() -> returns True if all characters are whitespace char(like space, tab, newline)
 print("   .isspace()", "   ".isspace())
 print("  a .isspace()", "  a ".isspace())
+
+# Built-in functions
+
+print("-----Built-in function-----")
+
+# len() -> returns the number of items in an object
+text = "Python"
+print("Length of Python:",len(text))
+
+# ord() -> returns the ASCII number of a character
+print(ord('A'))
+print(ord('1'))
+
+# chr() -> returns the character corresponding to a ASCII number
+print(chr(65))
+print(chr(49))
