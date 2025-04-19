@@ -1,4 +1,6 @@
-# Scope - where a variable can be accessed 
+# Scope - where a variable can be accessed
+# Lifetime - how long a variable exists in memory
+
 def sum(a,b): # a and b are local variables
     c = a+b
     z = 1 # It creates a local variable called z which is destroyed when this function returns
