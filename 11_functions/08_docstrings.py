@@ -1,5 +1,5 @@
 # Docstring -> special string that you write inside a function, class, or module to describe what it does
-# Docstrings are written right after starting the function to attach information to a 
+# Docstrings are written right after starting the function to attach information to a function
 
 def add(a, b):
     """
