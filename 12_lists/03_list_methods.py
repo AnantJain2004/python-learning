@@ -42,10 +42,10 @@ print("Copied list:", copied_list)
 mylist.sort()
 print("After sort():", mylist)
 
-# reverse() - reverses the order of the list
+# 11. reverse() - reverses the order of the list
 mylist.reverse()
 print("After reverse():", mylist)
 
-# clear() - removes all the elements from the list
+# 12. clear() - removes all the elements from the list
 mylist.clear()
 print("After clear():", mylist)
