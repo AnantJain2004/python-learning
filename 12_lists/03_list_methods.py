@@ -26,11 +26,11 @@ print("After pop():", mylist, "| Popped:", popped)
 popped_index = mylist.pop(0)
 print("After pop(0):", mylist, "| Popped index 0:", popped_index)
 
-# 7. index() - returns index of the first occurrence of the specified element
+# 7. index() - returns the index of the first occurrence of the specified element
 idx = mylist.index(4)
 print("Index of 4:", idx)
 
-# 8. count() - returns the count of the specified element
+# 8. count() - returns the count of occurrences of the specified element
 count_1 = mylist.count(1)
 print("Count of 1:", count_1)
 
