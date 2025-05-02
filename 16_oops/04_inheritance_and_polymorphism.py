@@ -32,6 +32,6 @@ my_cat = Cat("Fluffy")
 print(my_dog.name)
 print(my_cat.name)
 
-# They both a 'speak()' method, but it behaves differently
+# They both have a 'speak()' method, but it behaves differently (polymorphism)
 my_dog.speak()
 my_cat.speak()
