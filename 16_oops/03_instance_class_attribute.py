@@ -10,11 +10,15 @@ class Dog():
     species = "Canine" # Class attribute
 
     def __init__(self, name, breed):
-        self.name = name # I
-        self.breed = breed
+        self.name = name # Instance attribute
+        self.breed = breed # Instance attribute
 
 dog1 = Dog("Bruno", "Labrador")
 dog2 = Dog("Tommy", "Husky")
 
 print(f"1. Dog name: {dog1.name}, Dog breed: {dog1.breed}, Dog species: {Dog.species}")
 print(f"2. Dog name: {dog2.name}, Dog breed: {dog2.breed}, Dog species: {dog2.species}")
+
+# Object introspection: means examining the type, attributes and methods of an object while your program is running
+
+print(dir(dog1)) # dir(<obj>) - lists all attributes and methods
