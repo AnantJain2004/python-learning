@@ -1,3 +1,5 @@
+# Python lets you define how standard operators (like +, -, *, /) behave when used with objects your own classes. This is done using special methods called "magic methods" (or "dunder methods" because they have double underscores before and after the method name)
+
 class Point:
 
     def __init__(self, x, y):
