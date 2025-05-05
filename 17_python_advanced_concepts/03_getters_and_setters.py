@@ -8,7 +8,7 @@
 #         return self.name.split(" ")[0]
     
 #     # to change first name
-#     def change_first_name(self, first):
+#     def set_first_name(self, first):
 #         l = self.name.split(" ")
 #         new_name = f"{first} {l[1]}"
 #         self.name = new_name
@@ -17,7 +17,7 @@
 # e = Employee("John Doe", 35000)
 # print(e.name)
 # print(e.first_name())
-# e.change_first_name("Alan")
+# e.set_first_name("Alan")
 # print(e.name)
 
 #---------------------------------#
