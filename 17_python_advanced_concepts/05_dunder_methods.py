@@ -23,5 +23,6 @@ class Employee:
 e = Employee("Anant", 40500)
 print(e.name, e.salary)
 print(str(e))
+print(e)
 print(repr(e))
 print(len(e))
