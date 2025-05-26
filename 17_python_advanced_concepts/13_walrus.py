@@ -19,7 +19,8 @@ if (length := len("Python")) > 5:
 # (traditional approach)
 # data = input("Enter text: ")
 # while(data != "exit"):
-#     print("You typed: {data}")
+#     print(f"You typed: {data}")
+#     data = input("Enter text: ")
 
 # (with walrus)
 while (data := input("Enter text: ")) != "exit":
