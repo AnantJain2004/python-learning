@@ -6,7 +6,7 @@ from functools import reduce
 def sum(a, b):
     return a+b
 
-numbers = [1,2,3,4,5,6]
+numbers = [1, 2, 3, 4, 5, 6]
 #         [3,3,4,5,6]
 #         [6,4,5,6]
 #         [10,5,6]
