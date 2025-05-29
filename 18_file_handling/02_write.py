@@ -1,3 +1,5 @@
+# 'w' (Write mode) - If the file exists, it will be overwritten. If the file doesn't exist, a new file will be created 
+
 f = open("write into this.txt", "w")
 
 content = '''
